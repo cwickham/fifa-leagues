@@ -99,3 +99,5 @@ ggplot(leagues, aes(stage, rank)) +
   theme(axis.ticks = element_blank(), axis.text.y = element_blank(),
     panel.grid = element_blank(), axis.title = element_blank(),
     legend.position = "bottom") 
+
+ggsave("league-ranks.png", height = 3, width =13)
